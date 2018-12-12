@@ -6,7 +6,11 @@
   "keywords": [
     "color", "space", "indentation", "block", "structure", "square", "rectangle"
   ],
-  "repository": "https://github.com/atom/color-whitespace",
+  
+  "repository": {
+    "type": "git",
+    "url":"git+https://github.com/fredvernier/colored-whitespace.git"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
