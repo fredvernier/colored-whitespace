@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle color-whitespace",
+        "command": "color-whitespace:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Color-whitespace",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "color-whitespace:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

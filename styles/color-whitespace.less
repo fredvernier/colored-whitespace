@@ -1,0 +1,36 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.color-whitespace {
+}
+
+.fredbutton{
+  border-radius: 4px;
+  color: black;
+  margin-right:10px;
+  background-image: linear-gradient(to bottom right, rgb(255,255,255), rgb(192,192,192));
+}
+.fredbutton:hover{
+  border-radius: 4px;
+  color: black;
+  margin-right:10px;
+  background-image: linear-gradient(to bottom right, rgb(225,225,225), rgb(212,212,212));
+}
+.fredmessage{
+  color: #CCC;
+  margin-right:10px;
+  left-right:1px;
+}
+
+
+.blink_me {
+  animation: blinker 1s linear infinite alternate;
+}
+
+@keyframes blinker {
+   to { opacity: 0.6; }
+}
+

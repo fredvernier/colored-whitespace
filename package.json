@@ -1,0 +1,28 @@
+{
+  "name": "color-whitespace",
+  "main": "./lib/color-whitespace",
+  "version": "0.0.1",
+  "description": "color-whitespace add colored rectangles in the indentation whitespaces to visualize loops, conditions and structures",
+  "keywords": [
+    "color", "space", "indentation", "block", "structure", "square", "rectangle"
+  ],
+  "repository": "https://github.com/atom/color-whitespace",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "jquery": "^1.2.6"
+  },
+  "eslintConfig": {
+        "parserOptions": {
+          "ecmaVersion": 6,
+          "parser": "babel-eslint",
+          "sourceType": "module"
+        },
+        "env": {
+            "browser": false,
+            "node": false
+        }
+    }
+}
