@@ -1,7 +1,7 @@
 {
   "name": "color-whitespace",
   "main": "./lib/color-whitespace",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "color-whitespace add colored rectangles in the indentation whitespaces to visualize loops, conditions and structures",
   "keywords": [
     "color",
